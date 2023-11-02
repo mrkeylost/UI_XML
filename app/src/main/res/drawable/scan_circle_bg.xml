@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/white"/>
+                    <size android:height="40dp" android:width="40dp"/>
+                </shape>
+            </item>
+
+            <item
+                android:drawable="@drawable/ic_scan"
+                android:gravity="center"/>
+        </layer-list>
+    </item>
+
+</selector>
